@@ -1,0 +1,7 @@
+numbers= [(10,20,30),(40,50,60),(70,80,90)]
+new_list=[]
+for tup in numbers:
+    new_tup=tup[:-1]+(100,)
+new_list.append(new_tup)
+print("Original List:", numbers)
+print("Updated List:", new_list)
